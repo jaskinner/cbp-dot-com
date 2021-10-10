@@ -1,0 +1,7 @@
+2021-10-09T17:16:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WCPay\MultiCurrency\FrontendCurrencies::__construct(), 2 passed in /srv/users/wpadmin/apps/capn-bonnie-store/public/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php on line 242 and exactly 3 expected in /srv/users/wpadmin/apps/capn-bonnie-store/public/wp-content/plugins/woocommerce-payments/includes/multi-currency/FrontendCurrencies.php:62
+Stack trace:
+#0 /srv/users/wpadmin/apps/capn-bonnie-store/public/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php(242): WCPay\MultiCurrency\FrontendCurrencies->__construct(Object(WCPay\MultiCurrency\MultiCurrency), Object(WC_Payments_Localization_Service))
+#1 /srv/users/wpadmin/apps/capn-bonnie-store/public/wp-includes/class-wp-hook.php(303): WCPay\MultiCurrency\MultiCurrency->init('')
+#2 /srv/users/wpadmin/apps/capn-bonnie-store/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /srv/users/wpadmin/apps/capn-bonnie-store in /srv/users/wpadmin/apps/capn-bonnie-store/public/wp-content/plugins/woocommerce-payments/includes/multi-currency/FrontendCurrencies.php on line 62
+
